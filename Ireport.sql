@@ -1,0 +1,1 @@
+SELECT Costo_Id,c2.costo_anos as años,sum(costo_precio) as ganancias from costo as c2 group by años order by años asc;
